@@ -1,18 +1,26 @@
-<h1>To Do</h1>
+<div class="jumbotron"> <h1>To Do</h1>
+</div>
 
-<p>Here's Your To Do List</p>
+<p class="lead">Here's Your To Do List</p>
 
 
-
+<div>
 <ul>
 <% @tasks.each() do |task| %>
-  <li><%= task.description() %></li?
+  <li><%= task.description() %></li>
   <% end %>
 </ul>
-  
-
-  <form action="/tasks" method="post">
+</div>
 
 
+<div class="form">
+<form action="/tasks" method="post">
+  <div class="form-group">
+    <label for="description">Task Description</label>
+    <input type="text" id="description" name="description">
+  </div>
 
-  </form>
+  <button type="submit" class="btn btn-success">Get On It!</button>
+
+</form>
+<div class="form">
