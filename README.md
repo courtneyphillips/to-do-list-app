@@ -14,7 +14,7 @@ To-Do List is an exercise in custom Ruby classes, methods and attributes, as wel
 
 #### Gems
 
-PROJECT NAME uses the following gems:
+To-Do List uses the following gems:
 
   - Capybara
   - Sinatra
